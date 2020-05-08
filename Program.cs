@@ -11,7 +11,7 @@ namespace Bakery
     public static void Main()
     {
       Loaves MyBread = new Loaves();
-      Pastries MyPastry = new MyPastry();
+      Pastries MyPastry = new Pastries();
       Console.WriteLine("Loaves are $5 a piece. Buy two and get one for free");
       Console.WriteLine("How Many Breads do you want?");
       string NoOfLoavesString = Console.ReadLine();
@@ -23,7 +23,7 @@ namespace Bakery
       Console.WriteLine("How Many Pastries do you want?");
       string NoOfPastriesS = Console.ReadLine();
       int NoOfPastries = int.Parse(NoOfPastriesS);
-      MyPastry.PastryPrice(NoOfPastries);
+      MyPastry.PastryPriceCalculate(NoOfPastries);
       Console.WriteLine("Your total Price for " + NoOfPastries+ " Pastries" + "is "+ MyPastry.TotalPrice + " Dollars");
 
 

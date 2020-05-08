@@ -19,9 +19,9 @@ namespace Bakery.Pastry
     PastryPriceThreeOrMore = 5/3;
     }
 
-    public void PastryPrice (int NoOfPastries)
+    public void PastryPriceCalculate (int NoOfPastries)
     {
-      if (NoOfPastries =>3)
+      if (NoOfPastries ==3 || NoOfPastries > 3)
       {
         TotalPrice = NoOfPastries*(PastryPrice);
       } else

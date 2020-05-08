@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Bakery.Bread
 {
-public class Bread
+public class Loaves
 {
   // Private fields
   //public int NoOfLoaves { get; set; }
@@ -12,7 +12,7 @@ public class Bread
   public int TotalLoaves { get; set;}
 
   // Constructor
-  public Bread()
+  public Loaves()
   {
   //NoOfLoaves = 0;
   TotalLoaves = 0;
@@ -20,7 +20,7 @@ public class Bread
   LoavePrice = 5;
   }
 
-  public int BreadPrice (int NoOfLoaves)
+  public void BreadPrice (int NoOfLoaves)
   {
    int NumberOfTwoLoavesSets = NoOfLoaves/2;
    TotalLoaves = NoOfLoaves + NumberOfTwoLoavesSets;

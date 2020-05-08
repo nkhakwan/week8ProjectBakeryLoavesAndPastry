@@ -23,9 +23,7 @@ namespace Bakery.Pastry
     {
       if (NoOfPastries ==3 || NoOfPastries > 3)
       {
-        Console.WriteLine("inside 3 or more and pastry Price before calc is " + PastryPriceThreeOrMore);
         TotalPrice = NoOfPastries*PastryPriceThreeOrMore;
-        Console.WriteLine("inside 3 or more and Total Price after calc is " + TotalPrice);
       } else
       {
         TotalPrice = NoOfPastries*(PastryPrice);

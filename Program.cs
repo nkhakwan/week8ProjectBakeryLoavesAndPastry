@@ -14,6 +14,8 @@ namespace Bakery
       Pastries MyPastry = new Pastries();
       MyBread.LoavesOrderGetter();
       MyPastry.PastryOrderGetter();
+      float GrandTotal = MyBread.TotalPrice+ MyPastry.TotalPrice;
+      Console.WriteLine("Your Grand total for both Loaves and pastries is" + " " +GrandTotal);
 
     }
     

@@ -28,13 +28,13 @@ public class Loaves
 
   public void LoavesOrderGetter()
       {
-        Console.WriteLine("WelCome to Our Bakery for Delicious Baked Items. Currently we are selling Loaves and Pastries");
+        Console.WriteLine("");
         Console.WriteLine("Loaves are $5 a piece. Buy two and get one for free. How Many Loaves do you want?");
         string NoOfLoavesString = Console.ReadLine();
         int NoOfLoaves = int.Parse(NoOfLoavesString);
         BreadPrice(NoOfLoaves);
-        Console.WriteLine("You bought "+ NoOfLoaves + " Loaves. Your Total loaves with Promotion are " + TotalLoaves);
-        Console.WriteLine("And the total Price you pay is "+ " " + TotalPrice);
+        Console.WriteLine("You bought "+ NoOfLoaves + " Loaves in the current order. Your Total loaves with Promotion are " + TotalLoaves);
+        Console.WriteLine("And the total Price you pay for your current order of loaves is "+ " " + TotalPrice);
       }
 
   // Getters and Setters for fields

@@ -31,6 +31,7 @@ namespace Bakery.Pastry
 
     public void PastryOrderGetter()
       {
+        Console.WriteLine("");
         Console.WriteLine("What about Pastries? Try them they are good");
         Console.WriteLine("How many do you want? If you buy two or less, it is $2 a piece. For 3 it is $5");
         Console.WriteLine("How Many Pastries do you want?");

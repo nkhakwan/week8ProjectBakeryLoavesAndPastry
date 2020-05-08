@@ -13,7 +13,6 @@ namespace Bakery.Pastry
     // Constructor
     public Pastries()
     {
-    //NoOfLoaves = 0;
     TotalPrice = 0f;
     PastryPrice= 2;
     PastryPriceThreeOrMore = 5f/3;
@@ -28,14 +27,12 @@ namespace Bakery.Pastry
       {
         TotalPrice = NoOfPastries*(PastryPrice);
       }
-    
     }
 
     public void PastryOrderGetter()
       {
-        
-        
-        Console.WriteLine("What about Pastries? How many do you want? If you buy two, it is $2 a piece. For 3 it is $5");
+        Console.WriteLine("What about Pastries? Try them they are good");
+        Console.WriteLine("How many do you want? If you buy two or less, it is $2 a piece. For 3 it is $5");
         Console.WriteLine("How Many Pastries do you want?");
         string NoOfPastriesS = Console.ReadLine();
         int NoOfPastries = int.Parse(NoOfPastriesS);

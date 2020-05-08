@@ -14,7 +14,6 @@ public class Loaves
   // Constructor
   public Loaves()
   {
-  //NoOfLoaves = 0;
   TotalLoaves = 0;
   TotalPrice = 0;
   LoavePrice = 5;
@@ -29,21 +28,15 @@ public class Loaves
 
   public void LoavesOrderGetter()
       {
-        
-        Console.WriteLine("Loaves are $5 a piece. Buy two and get one for free");
-        Console.WriteLine("How Many Breads do you want?");
+        Console.WriteLine("WelCome to Our Bakery for Delicious Baked Items. Currently we are selling Loaves and Pastries");
+        Console.WriteLine("Loaves are $5 a piece. Buy two and get one for free. How Many Loaves do you want?");
         string NoOfLoavesString = Console.ReadLine();
         int NoOfLoaves = int.Parse(NoOfLoavesString);
         BreadPrice(NoOfLoaves);
-        Console.WriteLine("You have bought "+ NoOfLoaves + " Loaves. Your Total loaves with Promotion are " + TotalLoaves);
+        Console.WriteLine("You bought "+ NoOfLoaves + " Loaves. Your Total loaves with Promotion are " + TotalLoaves);
         Console.WriteLine("And the total Price you pay is "+ " " + TotalPrice);
       }
 
   // Getters and Setters for fields
-  
-
-
-
-  
 }
 }

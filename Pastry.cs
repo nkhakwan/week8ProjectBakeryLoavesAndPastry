@@ -14,19 +14,21 @@ namespace Bakery.Pastry
     public Pastries()
     {
     //NoOfLoaves = 0;
-    TotalPrice = 0;
+    TotalPrice = 0f;
     PastryPrice= 2;
-    PastryPriceThreeOrMore = 5/3;
+    PastryPriceThreeOrMore = 5f/3;
     }
 
     public void PastryPriceCalculate (int NoOfPastries)
     {
       if (NoOfPastries ==3 || NoOfPastries > 3)
       {
-        TotalPrice = NoOfPastries*(PastryPrice);
+        Console.WriteLine("inside 3 or more and pastry Price before calc is " + PastryPriceThreeOrMore);
+        TotalPrice = NoOfPastries*PastryPriceThreeOrMore;
+        Console.WriteLine("inside 3 or more and Total Price after calc is " + TotalPrice);
       } else
       {
-        TotalPrice = NoOfPastries*PastryPriceThreeOrMore;
+        TotalPrice = NoOfPastries*(PastryPrice);
       }
     
     }

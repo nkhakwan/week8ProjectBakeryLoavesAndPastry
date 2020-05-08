@@ -40,13 +40,13 @@ _Have a bug or an issue with this application? email post_khan@Yahoo.com_
 
 
 ### User specs in Steps
-1- User is welcomed and introduced with Loaves price and promotion and asked to input number of loaves he wants.
-2- Total price of loaves is displayed after the User inputs number of loaves he wants
-3- User is displayed with the promotion and price of Pastries and prompted to input the number of pastries wanted.
-4- Customer is shown the total price of the pastries and the combined Order price of both Loaves and Pastries.
-5- Customer is prompted to input "y" if he wants to place another order.
-6- Steps 2 - 4 are repeated and he is shown the Grand Total Price of Both the orders.
-7- He is given a bye bye if he doesn't want another order.
+* 1- User is welcomed and introduced with Loaves price and promotion and asked to input number of loaves he wants.
+* 2- Total price of loaves is displayed after the User inputs number of loaves he wants
+* 3- User is displayed with the promotion and price of Pastries and prompted to input the number of pastries wanted.
+* 4- Customer is shown the total price of the pastries and the combined Order price of both Loaves and Pastries.
+* 5- Customer is prompted to input "y" if he wants to place another order.
+* 6- Steps 2 - 4 are repeated and he is shown the Grand Total Price of Both the orders.
+* 7- He is given a bye bye if he doesn't want another order.
 ### License
 
 This software is licensed under the Epicodus inc license.

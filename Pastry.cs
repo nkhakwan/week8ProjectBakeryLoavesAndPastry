@@ -38,6 +38,8 @@ namespace Bakery.Pastry
         string NoOfPastriesS = Console.ReadLine();
         int NoOfPastries = int.Parse(NoOfPastriesS);
         PastryPriceCalculate(NoOfPastries);
+        Console.WriteLine("");
+        Console.WriteLine("");
         Console.WriteLine("Your total Price for " + NoOfPastries+ " Pastries" + " "+ "is "+ TotalPrice + " Dollars");
       }
   }

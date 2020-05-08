@@ -33,6 +33,8 @@ public class Loaves
         string NoOfLoavesString = Console.ReadLine();
         int NoOfLoaves = int.Parse(NoOfLoavesString);
         BreadPrice(NoOfLoaves);
+        Console.WriteLine("");
+        Console.WriteLine("");
         Console.WriteLine("You bought "+ NoOfLoaves + " Loaves in the current order. Your Total loaves with Promotion are " + TotalLoaves);
         Console.WriteLine("And the total Price you pay for your current order of loaves is "+ " " + TotalPrice);
       }

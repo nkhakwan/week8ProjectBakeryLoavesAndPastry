@@ -32,5 +32,17 @@ namespace Bakery.Pastry
       }
     
     }
+
+    public void PastryOrderGetter()
+      {
+        
+        
+        Console.WriteLine("What about Pastries? How many do you want? If you buy two, it is $2 a piece. For 3 it is $5");
+        Console.WriteLine("How Many Pastries do you want?");
+        string NoOfPastriesS = Console.ReadLine();
+        int NoOfPastries = int.Parse(NoOfPastriesS);
+        PastryPriceCalculate(NoOfPastries);
+        Console.WriteLine("Your total Price for " + NoOfPastries+ " Pastries" + " "+ "is "+ TotalPrice + " Dollars");
+      }
   }
 }
